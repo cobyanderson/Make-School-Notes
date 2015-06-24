@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Home-->
+        <!--Dashboard-->
         <scene sceneID="fec-HM-9mF">
             <objects>
-                <viewController id="CLt-16-2fF" customClass="NotesViewController" customModule="MakeSchoolNotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CLt-16-2fF" userLabel="Dashboard" customClass="NotesViewController" customModule="MakeSchoolNotes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Qjx-Cn-VTT"/>
                         <viewControllerLayoutGuide type="bottom" id="3rq-me-LIZ"/>
@@ -16,27 +16,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="vyT-so-Oa6">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="vyT-so-Oa6" userLabel="Note" customClass="Not">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="uNN-Pj-S6R">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoteCell" rowHeight="66" id="uNN-Pj-S6R" customClass="NoteTableViewCell" customModule="MakeSchoolNotes" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uNN-Pj-S6R" id="O5u-fV-ijh">
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VB-KE-gT8">
+                                                    <rect key="frame" x="15" y="11" width="73" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                    <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxd-KL-ghD">
+                                                    <rect key="frame" x="15" y="36" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="tintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="sxd-KL-ghD" id="qvs-Rs-KjR"/>
+                                            <outlet property="titleLabel" destination="5VB-KE-gT8" id="suO-78-rez"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vyT-so-Oa6" firstAttribute="leading" secondItem="poT-Qu-LRL" secondAttribute="leading" id="7Ud-wz-psY"/>
+                            <constraint firstAttribute="bottom" secondItem="vyT-so-Oa6" secondAttribute="bottom" id="VkO-Xx-XLb"/>
+                            <constraint firstAttribute="trailing" secondItem="vyT-so-Oa6" secondAttribute="trailing" id="bsX-Ck-rGT"/>
+                            <constraint firstItem="vyT-so-Oa6" firstAttribute="top" secondItem="poT-Qu-LRL" secondAttribute="top" id="yyg-t2-7gg"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="m7W-J0-R60"/>
+                    <navigationItem key="navigationItem" title="Mi Notes" id="m7W-J0-R60"/>
+                    <connections>
+                        <outlet property="tableView" destination="vyT-so-Oa6" id="LBs-Y8-pd7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fqb-43-s5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1156" y="503"/>
+            <point key="canvasLocation" x="1148" y="517"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aVg-hh-DIK">
