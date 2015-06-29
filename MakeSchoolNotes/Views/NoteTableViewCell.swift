@@ -29,5 +29,4 @@ class NoteTableViewCell: UITableViewCell {
         }
     }
     
-    
 }

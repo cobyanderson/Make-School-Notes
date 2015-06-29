@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49A37E531B3C741700597470 /* NoteDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A37E521B3C741700597470 /* NoteDisplayViewController.swift */; };
+		49A37E591B3CEF2700597470 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 49A37E581B3CEF2700597470 /* AppIcon.appiconset */; };
+		49A37E891B3CEFCF00597470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A37E881B3CEFCF00597470 /* Images.xcassets */; };
+		49AEC0ED1B3B157300A62F5B /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AEC0EC1B3B157300A62F5B /* NewNoteViewController.swift */; };
+		49AEC0EF1B3B1A5C00A62F5B /* minerva.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AEC0EE1B3B1A5C00A62F5B /* minerva.png */; };
 		5B7FD42E1B189D2C0088C25E /* StyleConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7FD4291B189D2C0088C25E /* StyleConstants.swift */; };
 		5B7FD42F1B189D2C0088C25E /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7FD42C1B189D2C0088C25E /* NotesViewController.swift */; };
 		5B7FD4331B18A15D0088C25E /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7FD4321B18A15D0088C25E /* Note.swift */; };
 		5B7FD4351B18A1FC0088C25E /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7FD4341B18A1FC0088C25E /* NoteTableViewCell.swift */; };
 		5BD33FE21B187F5D00A6CDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD33FE11B187F5D00A6CDE9 /* AppDelegate.swift */; };
 		5BD33FE71B187F5D00A6CDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD33FE51B187F5D00A6CDE9 /* Main.storyboard */; };
-		5BD33FE91B187F5D00A6CDE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD33FE81B187F5D00A6CDE9 /* Images.xcassets */; };
 		5BD33FEC1B187F5D00A6CDE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BD33FEA1B187F5D00A6CDE9 /* LaunchScreen.xib */; };
 		5BD33FF81B187F5D00A6CDE9 /* MakeSchoolNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD33FF71B187F5D00A6CDE9 /* MakeSchoolNotesTests.swift */; };
 		5BD3404B1B18825300A6CDE9 /* ConvenienceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD340411B18819B00A6CDE9 /* ConvenienceKit.framework */; };
@@ -79,6 +83,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		49A37E521B3C741700597470 /* NoteDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDisplayViewController.swift; sourceTree = "<group>"; };
+		49A37E581B3CEF2700597470 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../AppIcon.appiconset; sourceTree = "<group>"; };
+		49A37E881B3CEFCF00597470 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		49AEC0EC1B3B157300A62F5B /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
+		49AEC0EE1B3B1A5C00A62F5B /* minerva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minerva.png; path = ../minerva.png; sourceTree = "<group>"; };
 		5B7FD4291B189D2C0088C25E /* StyleConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleConstants.swift; sourceTree = "<group>"; };
 		5B7FD42C1B189D2C0088C25E /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		5B7FD4321B18A15D0088C25E /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = Entities/Note.swift; sourceTree = "<group>"; };
@@ -87,7 +96,6 @@
 		5BD33FE01B187F5D00A6CDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BD33FE11B187F5D00A6CDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD33FE61B187F5D00A6CDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5BD33FE81B187F5D00A6CDE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BD33FEB1B187F5D00A6CDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5BD33FF11B187F5D00A6CDE9 /* MakeSchoolNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeSchoolNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD33FF61B187F5D00A6CDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				5B7FD42C1B189D2C0088C25E /* NotesViewController.swift */,
+				49AEC0EC1B3B157300A62F5B /* NewNoteViewController.swift */,
+				49A37E521B3C741700597470 /* NoteDisplayViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -145,7 +155,7 @@
 		5BD33FD31B187F5D00A6CDE9 = {
 			isa = PBXGroup;
 			children = (
-				5BD33FDE1B187F5D00A6CDE9 /* MakeSchoolNotes */,
+				5BD33FDE1B187F5D00A6CDE9 /* Remember Mi */,
 				5BD340391B1880CA00A6CDE9 /* Frameworks */,
 				5BD33FF41B187F5D00A6CDE9 /* MakeSchoolNotesTests */,
 				5BD33FDD1B187F5D00A6CDE9 /* Products */,
@@ -161,7 +171,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5BD33FDE1B187F5D00A6CDE9 /* MakeSchoolNotes */ = {
+		5BD33FDE1B187F5D00A6CDE9 /* Remember Mi */ = {
 			isa = PBXGroup;
 			children = (
 				5B7FD4281B189D2C0088C25E /* Constants */,
@@ -170,10 +180,12 @@
 				5BD340611B18861400A6CDE9 /* Entities */,
 				5BD33FE11B187F5D00A6CDE9 /* AppDelegate.swift */,
 				5BD33FE51B187F5D00A6CDE9 /* Main.storyboard */,
-				5BD33FE81B187F5D00A6CDE9 /* Images.xcassets */,
 				5BD33FEA1B187F5D00A6CDE9 /* LaunchScreen.xib */,
+				49A37E881B3CEFCF00597470 /* Images.xcassets */,
+				49A37E581B3CEF2700597470 /* AppIcon.appiconset */,
 				5BD33FDF1B187F5D00A6CDE9 /* Supporting Files */,
 			);
+			name = "Remember Mi";
 			path = MakeSchoolNotes;
 			sourceTree = "<group>";
 		};
@@ -226,6 +238,7 @@
 		5BD340611B18861400A6CDE9 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				49AEC0EE1B3B1A5C00A62F5B /* minerva.png */,
 				5B7FD4321B18A15D0088C25E /* Note.swift */,
 			);
 			name = Entities;
@@ -282,6 +295,7 @@
 				TargetAttributes = {
 					5BD33FDB1B187F5D00A6CDE9 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = D6C7YNZ89Q;
 					};
 					5BD33FF01B187F5D00A6CDE9 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -289,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5BD33FD71B187F5D00A6CDE9 /* Build configuration list for PBXProject "MakeSchoolNotes" */;
+			buildConfigurationList = 5BD33FD71B187F5D00A6CDE9 /* Build configuration list for PBXProject "Remember Mi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -343,9 +357,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A37E591B3CEF2700597470 /* AppIcon.appiconset in Resources */,
+				49A37E891B3CEFCF00597470 /* Images.xcassets in Resources */,
+				49AEC0EF1B3B1A5C00A62F5B /* minerva.png in Resources */,
 				5BD33FE71B187F5D00A6CDE9 /* Main.storyboard in Resources */,
 				5BD33FEC1B187F5D00A6CDE9 /* LaunchScreen.xib in Resources */,
-				5BD33FE91B187F5D00A6CDE9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +384,8 @@
 				5B7FD42F1B189D2C0088C25E /* NotesViewController.swift in Sources */,
 				5B7FD4351B18A1FC0088C25E /* NoteTableViewCell.swift in Sources */,
 				5B7FD4331B18A15D0088C25E /* Note.swift in Sources */,
+				49A37E531B3C741700597470 /* NoteDisplayViewController.swift in Sources */,
+				49AEC0ED1B3B157300A62F5B /* NewNoteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +519,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -508,7 +528,8 @@
 				INFOPLIST_FILE = MakeSchoolNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MakeSchoolNotes;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -516,6 +537,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -523,7 +546,8 @@
 				INFOPLIST_FILE = MakeSchoolNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MakeSchoolNotes;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -541,7 +565,7 @@
 				);
 				INFOPLIST_FILE = MakeSchoolNotesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MakeSchoolNotesTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeSchoolNotes.app/MakeSchoolNotes";
 			};
 			name = Debug;
@@ -556,7 +580,7 @@
 				);
 				INFOPLIST_FILE = MakeSchoolNotesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MakeSchoolNotesTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeSchoolNotes.app/MakeSchoolNotes";
 			};
 			name = Release;
@@ -564,7 +588,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5BD33FD71B187F5D00A6CDE9 /* Build configuration list for PBXProject "MakeSchoolNotes" */ = {
+		5BD33FD71B187F5D00A6CDE9 /* Build configuration list for PBXProject "Remember Mi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BD33FF91B187F5D00A6CDE9 /* Debug */,
